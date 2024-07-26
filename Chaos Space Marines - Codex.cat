@@ -24981,6 +24981,85 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
         <cost name="pts" typeId="points" value="20"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Venomcrawler" hidden="false" id="4233-1fcc-637f-ac1d">
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Daemonic Possession" id="6836-983a-b970-067a" hidden="false" type="rule" targetId="0ed3-8312-577c-0be5"/>
+        <infoLink name="Fleet" id="8786-d05c-8ce9-def9" hidden="false" type="rule" targetId="535d-bef9-c20d-003f"/>
+        <infoLink name="Daemon" id="0231-3ea6-7b04-031b" hidden="false" type="rule" targetId="f5c6-6b47-a2b6-de32"/>
+        <infoLink name="Daemonforge" id="1ffe-f444-be36-e031" hidden="false" type="rule" targetId="63be-4d42-4a43-6c06"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Eviscerating Claws" hidden="false" id="8ce9-40f5-3357-f278">
+          <profiles>
+            <profile name="Eviscerating Claws" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="5794-e48e-a384-7900">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="a94f-348a-2a2a-5b20-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="a94f-348a-2a2a-5b20-max"/>
+          </constraints>
+          <rules>
+            <rule name="Eviscerating Claws" id="2393-15a2-caa1-560f" hidden="false">
+              <description>Each time a vehicle transport suffers a penetrating hit from this weapon in close combat, a random model embarked upon that transport is removed as a casualty.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Excruciator Cannons" hidden="false" id="2fa5-8cde-b851-c1da">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="80ea-f423-501f-cd00-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="80ea-f423-501f-cd00-max"/>
+          </constraints>
+          <profiles>
+            <profile name="Excruciator Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="30b2-d79d-e20a-c14c">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule name="Excruciator Cannon" id="ce78-cc75-2def-9c91" hidden="false">
+              <description>When shooting with this weapon, just before any shots are made, this model lets out an ear-splitting screech. The unit that was targeted by the shooting attack must immediately pass a Toughness test. If the test is failed, treat this model&apos;s Ballistic Skill as 1 point higher when shooting at that unit this turn.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <rules>
+        <rule name="Reservoir of Daemonic Energy" id="f7d0-6f6c-70b1-9515" hidden="false">
+          <description>Friendly psykers may reroll tests to manifest Daemonology (Malefic) powers. Whenever a friendly psyker fails to manifest such a power after rerolling it in this fashion (before any Deny the Witch attempts are made), it suffers Perils of the Warp.</description>
+        </rule>
+        <rule name="Devourer of Souls" id="05fd-72ce-6233-9274" hidden="false">
+          <description>This model regains 1 hull point at the end of the Assault phase if it dealt any unsaved wounds to any enemy non-vehicle models that phase.</description>
+        </rule>
+      </rules>
+      <profiles>
+        <profile name="Venomcrawler" typeId="3d64-141e-a79b-db92" typeName="Vehicle - Walker" hidden="false" id="28ec-8880-63a4-d7f0">
+          <characteristics>
+            <characteristic name="WS" typeId="e9f5-3cd3-7ac4-d9f1">3</characteristic>
+            <characteristic name="BS" typeId="c010-9b27-58cf-e83b">3</characteristic>
+            <characteristic name="S" typeId="79ab-29fc-6b6c-de60">6</characteristic>
+            <characteristic name="Front" typeId="b5df-b75d-7eee-5383">12</characteristic>
+            <characteristic name="Side" typeId="b946-955a-ee41-bde7">12</characteristic>
+            <characteristic name="Rear" typeId="101d-3dbe-00af-a988">10</characteristic>
+            <characteristic name="I" typeId="af0f-4c00-4b63-0541">3</characteristic>
+            <characteristic name="A" typeId="a9d9-30a3-08a1-966f">2</characteristic>
+            <characteristic name="HP" typeId="49b3-fa9c-400f-b13d">3</characteristic>
+            <characteristic name="Type" typeId="4ead-dfbd-3fb2-5297">Walker - Vehicle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7bda-7c33-ecff-a43a" name="Chaos Artefact Weapons" hidden="false" collective="false" import="true">
@@ -25940,6 +26019,22 @@ Codex: Grey Knights</description>
     </rule>
     <rule id="b3ad-2a40-c969-66d9" name="Crimson Slaughter" hidden="false">
       <description>If you wish, you can say that any Chaos Space Marines Detachment or Formation is also a Black legion Detachment or Formation. Detachments and Formations drawn from the Crimson Slaughter may use the Warlord Traits and Tactical Objectives from the Crimson Slaughter supplement in addition to those in C:CSM and BRB.</description>
+    </rule>
+    <rule name="Daemon" id="f5c6-6b47-a2b6-de32" hidden="false">
+      <description>This model has a 5+ Invulnerable Save and the Fear special rule.</description>
+    </rule>
+    <rule name="Daemonforge" id="63be-4d42-4a43-6c06" hidden="false">
+      <description>Once per game, during either the Shooting or Assault phase, this model may re-roll all failed wound rolls and all failed armour penetration rolls. At the end of that phase, roll a D6. On a result of 1, this model loses 1 hull point.</description>
+    </rule>
+    <rule name="Daemonic Possession" id="0ed3-8312-577c-0be5" hidden="false">
+      <description>This vehicle is reduced to BS3.
+
+When this vehicle would suffer a Crew Shaken or Crew Stunned result, roll a D6. On a result of 2+, it ignores the effects.
+
+Roll a D6 each time a unit embarks on this vehicle (including at the start of your first turn if a unit begins the game embarked upon it). On a roll of 1, a random model in that unit is devoured. Remove that model as a casualty. This vehicle then regains one Hull Point.</description>
+    </rule>
+    <rule name="Fleet" id="535d-bef9-c20d-003f" hidden="false">
+      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining the distance it can Run and Charge.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
