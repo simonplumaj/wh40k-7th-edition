@@ -18492,13 +18492,13 @@ during the same turn that it uses this special rule.</description>
             <infoLink id="9373-fcc3-05b3-3d17" hidden="false" targetId="17cc-b1b3-2c72-45d5" type="profile" name="Genestealers"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="9349-bb2a-bba3-eeb6" name="Rending Claws" page="0" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="9349-bb2a-bba3-eeb6" name="Serrated Claws" page="0" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e7c-e1b6-5aaf-4e93" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2022-3cf1-bcb0-f05f" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="3bc3-2e80-bdd9-31d3" hidden="false" targetId="b4b420ad-1f65-45a0-047c-9dc1a03c409e" type="profile" name="Rending Claws"/>
+                <infoLink id="3bc3-2e80-bdd9-31d3" hidden="false" targetId="885b-d30f-a097-d3f9" type="profile" name="Serrated Claws"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
@@ -18555,7 +18555,7 @@ during the same turn that it uses this special rule.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5466-84b8-853e-b7f2" name="Rending Claws" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5466-84b8-853e-b7f2" name="Serrated Claws" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
