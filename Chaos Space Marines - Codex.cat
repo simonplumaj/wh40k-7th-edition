@@ -25001,10 +25001,10 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
           <profiles>
             <profile name="Eviscerating Claws" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="5794-e48e-a384-7900">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
-                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
-                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">-</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">User</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">2</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee, Rending</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -25026,10 +25026,10 @@ In addition, if a model that has the VotLW special rule is slain in the Fight su
           <profiles>
             <profile name="Excruciator Cannon" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon" hidden="false" id="30b2-d79d-e20a-c14c">
               <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
-                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45"/>
-                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f"/>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                <characteristic name="Strength" typeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45">8</characteristic>
+                <characteristic name="AP" typeId="6abee736-f8d3-498e-97ac-a5c68445609f">3</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
               </characteristics>
             </profile>
           </profiles>
